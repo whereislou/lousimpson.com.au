@@ -1,0 +1,35 @@
+
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif!important;
+    font-weight: 400;
+}
+
+header {
+    padding: 20px 50px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+header > h1 {
+    display: none;
+}
+
+header > h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2vw;
+}
+
+#logo {
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+main {
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;  
+}
+
