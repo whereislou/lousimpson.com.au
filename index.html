@@ -1,36 +1,436 @@
 <!DOCTYPE HTML>
-<html lang="en-US">
-    <head>
+<!--
+	Ethereal by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
         <title>Lou Simpson | Practical Ecommerce Consulting Melbourne</title>
         <meta name="description" content="Providing Ecommerce Consulting for Retail Business: Web Platform Upgrades &amp; Optimisation, Ecommerce Strategy, SEO, CRO, Google Analytics &amp; Enhanced Ecommerce Implementation, Google Tag Management Support.">
         <!--TODO: insert og and fb tags -->
-        <!-- TEST 0.1 -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-        <link rel="stylesheet" href="css/styles.css" />
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    </head>
-    <body class="container">
-        <header>
-            <h1>Lou Simpson Ecommerce Consulting</h1>
-            <svg id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg" version="1.1" width="400" height="350" style="display: block;"><g id="svgg"><path id="path0" d="M0.000 35.052 L 0.000 70.103 3.780 70.103 L 7.560 70.103 7.560 38.488 L 7.560 6.873 103.780 6.873 L 200.000 6.873 200.000 3.436 L 200.000 0.000 100.000 0.000 L 0.000 0.000 0.000 35.052 M0.012 259.622 C 0.165 275.097,5.222 290.139,13.103 298.564 C 24.217 310.445,33.433 311.970,86.942 310.784 C 138.424 309.643,154.071 311.181,173.745 319.313 C 187.948 325.184,196.564 333.898,196.564 342.393 C 196.564 343.268,197.079 343.643,198.282 343.643 C 199.999 343.643,200.000 343.637,200.000 336.851 L 200.000 330.059 197.423 326.877 C 188.567 315.942,166.759 307.009,142.631 304.431 C 134.188 303.529,113.543 303.314,71.821 303.692 C 32.967 304.043,27.516 303.128,19.273 294.865 C 12.335 287.911,8.470 278.042,7.760 265.464 L 7.363 258.419 3.681 258.419 C 0.629 258.419,0.002 258.625,0.012 259.622 " stroke="none" fill="#7faeb8" fill-rule="evenodd"/><path id="path1" d="" stroke="none" fill="#7badbd" fill-rule="evenodd"/><path id="path2" d="" stroke="none" fill="#193a5a" fill-rule="evenodd"/><path id="path3" d="" stroke="none" fill="#264455" fill-rule="evenodd"/><path id="path4" d="M200.000 3.436 L 200.000 6.873 296.220 6.873 L 392.440 6.873 392.440 38.488 L 392.440 70.103 396.220 70.103 L 400.000 70.103 400.000 35.052 L 400.000 0.000 300.000 0.000 L 200.000 0.000 200.000 3.436 M160.137 40.285 C 98.441 47.780,73.680 126.341,119.315 169.807 C 164.715 213.048,237.979 178.852,237.777 114.515 C 237.642 71.426,200.005 35.442,160.137 40.285 M44.674 114.777 L 44.674 187.629 66.667 187.629 L 88.660 187.629 88.660 182.818 L 88.660 178.007 71.134 178.007 L 53.608 178.007 53.608 109.966 L 53.608 41.924 49.141 41.924 L 44.674 41.924 44.674 114.777 M257.045 90.893 C 257.046 141.483,257.454 151.717,259.780 159.450 C 270.596 195.404,327.684 199.653,345.252 165.813 C 350.144 156.389,350.036 157.854,350.332 96.703 L 350.598 41.860 345.917 42.064 L 341.237 42.268 340.852 96.907 C 340.519 144.248,340.320 152.028,339.369 155.151 C 329.041 189.049,275.859 187.900,267.928 153.608 C 267.376 151.219,267.052 133.677,266.866 96.048 L 266.598 41.924 261.821 41.924 L 257.045 41.924 257.045 90.893 M177.431 50.453 C 221.672 58.948,243.050 113.597,217.143 151.974 C 189.981 192.210,133.891 188.204,112.015 144.465 C 88.570 97.593,127.979 40.957,177.431 50.453 M102.194 206.994 C 101.436 210.126,90.722 265.137,90.722 265.895 C 90.722 266.319,91.579 266.667,92.628 266.667 L 94.534 266.667 98.856 244.158 C 101.234 231.778,103.398 221.086,103.666 220.397 C 104.003 219.531,106.991 226.635,113.350 243.421 C 118.408 256.773,122.738 267.921,122.972 268.194 C 123.207 268.468,127.705 257.395,132.968 243.589 L 142.537 218.486 146.523 238.968 C 148.715 250.233,150.841 261.074,151.248 263.058 C 151.945 266.460,152.108 266.667,154.081 266.667 C 155.735 266.667,156.109 266.415,155.862 265.464 C 155.690 264.802,152.960 251.040,149.795 234.880 C 146.631 218.720,143.875 205.499,143.670 205.500 C 143.466 205.502,138.816 217.241,133.338 231.587 C 127.859 245.934,123.191 257.453,122.964 257.186 C 122.737 256.919,118.285 245.412,113.070 231.615 C 103.016 205.010,102.795 204.509,102.194 206.994 M50.515 206.974 C 43.296 209.641,39.162 217.674,41.223 225.034 C 42.421 229.313,44.730 231.351,54.403 236.666 C 65.143 242.566,67.354 244.756,67.354 249.497 C 67.354 264.163,49.230 268.516,42.516 255.462 C 41.264 253.026,39.585 252.498,37.890 254.005 C 37.257 254.568,38.684 257.885,40.726 260.599 C 51.459 274.861,75.143 264.127,71.405 246.695 C 70.368 241.863,67.225 238.861,58.107 233.998 C 46.154 227.624,43.727 224.626,45.421 218.333 C 47.706 209.848,57.212 207.905,63.816 214.574 C 66.676 217.463,66.687 217.467,68.048 216.106 C 72.246 211.909,57.687 204.325,50.515 206.974 M206.624 207.151 C 197.430 210.571,194.157 223.145,200.561 230.443 C 201.156 231.122,205.526 233.833,210.272 236.469 C 222.193 243.089,224.055 244.863,224.055 249.599 C 224.055 264.957,202.633 268.037,197.748 253.381 C 197.552 252.794,197.024 252.804,195.676 253.418 C 193.155 254.566,194.275 257.602,198.924 262.223 C 210.090 273.319,229.055 264.857,228.060 249.222 C 227.628 242.450,225.915 240.405,216.172 235.032 C 205.124 228.939,202.543 226.951,201.794 223.957 C 198.959 212.624,212.753 205.924,220.576 214.833 C 223.875 218.591,226.900 216.367,224.010 212.308 C 220.619 207.545,212.243 205.061,206.624 207.151 M255.842 207.248 C 229.017 214.471,225.594 252.011,250.633 264.386 C 264.904 271.439,281.018 265.411,288.535 250.207 C 299.570 227.886,279.099 200.985,255.842 207.248 M299.656 236.426 L 299.656 266.667 301.710 266.667 L 303.763 266.667 303.943 241.774 L 304.124 216.881 325.430 240.912 C 337.148 254.128,347.577 265.871,348.605 267.007 L 350.475 269.072 350.495 237.973 L 350.515 206.873 348.462 206.873 L 346.408 206.873 346.228 232.252 L 346.048 257.631 323.079 231.908 C 310.447 217.761,300.008 206.186,299.884 206.186 C 299.759 206.186,299.656 219.794,299.656 236.426 M80.412 236.770 L 80.412 266.667 82.474 266.667 L 84.536 266.667 84.536 236.770 L 84.536 206.873 82.474 206.873 L 80.412 206.873 80.412 236.770 M162.199 236.675 L 162.199 266.667 164.261 266.667 L 166.323 266.667 166.323 252.577 L 166.323 238.488 171.993 238.481 C 184.244 238.467,191.366 230.648,189.034 219.774 C 187.002 210.301,183.038 207.611,170.275 207.043 L 162.199 206.684 162.199 236.675 M268.240 211.331 C 287.267 216.287,293.718 241.304,279.684 255.712 C 270.214 265.435,255.232 265.577,245.689 256.035 C 227.409 237.754,243.932 205.000,268.240 211.331 M180.069 212.958 C 190.441 220.551,184.690 234.364,171.156 234.364 L 166.323 234.364 166.323 222.579 L 166.323 210.794 172.337 211.247 C 176.521 211.562,178.873 212.083,180.069 212.958 M392.241 265.464 C 391.145 284.959,381.982 298.876,368.139 302.070 C 360.315 303.875,342.522 304.372,311.340 303.655 C 268.093 302.662,251.836 303.801,234.364 309.051 C 219.932 313.387,208.163 319.988,202.577 326.879 L 200.000 330.059 200.000 336.851 C 200.000 343.533,200.026 343.643,201.625 343.643 C 203.038 343.643,203.307 343.225,203.689 340.434 C 205.043 330.559,216.659 321.677,235.739 315.927 C 252.767 310.796,268.542 309.718,311.340 310.764 C 363.819 312.046,375.422 310.345,385.699 299.866 C 394.204 291.193,398.218 280.812,399.666 263.746 L 400.117 258.419 396.377 258.419 L 392.637 258.419 392.241 265.464 " stroke="none" fill="#24465a" fill-rule="evenodd"/></g></svg>
-            <h2>Ecommerce Consulting</h2>
-        </header>
-        <main class="row">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <p>Ecommerce Strategy</p>
-                        <p>Conversion Rate Optimisation</p>
-                        <p>Search Engine Optimisation</p>
-                        <p>Google Analytics &amp; Enhnaced Ecommerce Implementation</p>
-                        <p>Google Tag Management Support</p>
-                    </div>
-                </div>
-            </div>
-            <button>Contact</button>
-        </main>
-    </body>
-    
+        <meta name="google-site-verification" content="hadBMQERcmopnev5HiA--I28y-XJd3D8Px_ZGiCTEos" />
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Wrapper -->
+					<div id="wrapper">
+					
+							<section class="panel">
+								<div class="intro span-2-75">
+									<!-- <svg id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg" version="1.1" width="400" height="350" style="display: block;"><g id="svgg"><path id="path0" d="M0.000 35.052 L 0.000 70.103 3.780 70.103 L 7.560 70.103 7.560 38.488 L 7.560 6.873 103.780 6.873 L 200.000 6.873 200.000 3.436 L 200.000 0.000 100.000 0.000 L 0.000 0.000 0.000 35.052 M0.012 259.622 C 0.165 275.097,5.222 290.139,13.103 298.564 C 24.217 310.445,33.433 311.970,86.942 310.784 C 138.424 309.643,154.071 311.181,173.745 319.313 C 187.948 325.184,196.564 333.898,196.564 342.393 C 196.564 343.268,197.079 343.643,198.282 343.643 C 199.999 343.643,200.000 343.637,200.000 336.851 L 200.000 330.059 197.423 326.877 C 188.567 315.942,166.759 307.009,142.631 304.431 C 134.188 303.529,113.543 303.314,71.821 303.692 C 32.967 304.043,27.516 303.128,19.273 294.865 C 12.335 287.911,8.470 278.042,7.760 265.464 L 7.363 258.419 3.681 258.419 C 0.629 258.419,0.002 258.625,0.012 259.622 " stroke="none" fill="#7faeb8" fill-rule="evenodd"/><path id="path1" d="" stroke="none" fill="#7badbd" fill-rule="evenodd"/><path id="path2" d="" stroke="none" fill="#193a5a" fill-rule="evenodd"/><path id="path3" d="" stroke="none" fill="#264455" fill-rule="evenodd"/><path id="path4" d="M200.000 3.436 L 200.000 6.873 296.220 6.873 L 392.440 6.873 392.440 38.488 L 392.440 70.103 396.220 70.103 L 400.000 70.103 400.000 35.052 L 400.000 0.000 300.000 0.000 L 200.000 0.000 200.000 3.436 M160.137 40.285 C 98.441 47.780,73.680 126.341,119.315 169.807 C 164.715 213.048,237.979 178.852,237.777 114.515 C 237.642 71.426,200.005 35.442,160.137 40.285 M44.674 114.777 L 44.674 187.629 66.667 187.629 L 88.660 187.629 88.660 182.818 L 88.660 178.007 71.134 178.007 L 53.608 178.007 53.608 109.966 L 53.608 41.924 49.141 41.924 L 44.674 41.924 44.674 114.777 M257.045 90.893 C 257.046 141.483,257.454 151.717,259.780 159.450 C 270.596 195.404,327.684 199.653,345.252 165.813 C 350.144 156.389,350.036 157.854,350.332 96.703 L 350.598 41.860 345.917 42.064 L 341.237 42.268 340.852 96.907 C 340.519 144.248,340.320 152.028,339.369 155.151 C 329.041 189.049,275.859 187.900,267.928 153.608 C 267.376 151.219,267.052 133.677,266.866 96.048 L 266.598 41.924 261.821 41.924 L 257.045 41.924 257.045 90.893 M177.431 50.453 C 221.672 58.948,243.050 113.597,217.143 151.974 C 189.981 192.210,133.891 188.204,112.015 144.465 C 88.570 97.593,127.979 40.957,177.431 50.453 M102.194 206.994 C 101.436 210.126,90.722 265.137,90.722 265.895 C 90.722 266.319,91.579 266.667,92.628 266.667 L 94.534 266.667 98.856 244.158 C 101.234 231.778,103.398 221.086,103.666 220.397 C 104.003 219.531,106.991 226.635,113.350 243.421 C 118.408 256.773,122.738 267.921,122.972 268.194 C 123.207 268.468,127.705 257.395,132.968 243.589 L 142.537 218.486 146.523 238.968 C 148.715 250.233,150.841 261.074,151.248 263.058 C 151.945 266.460,152.108 266.667,154.081 266.667 C 155.735 266.667,156.109 266.415,155.862 265.464 C 155.690 264.802,152.960 251.040,149.795 234.880 C 146.631 218.720,143.875 205.499,143.670 205.500 C 143.466 205.502,138.816 217.241,133.338 231.587 C 127.859 245.934,123.191 257.453,122.964 257.186 C 122.737 256.919,118.285 245.412,113.070 231.615 C 103.016 205.010,102.795 204.509,102.194 206.994 M50.515 206.974 C 43.296 209.641,39.162 217.674,41.223 225.034 C 42.421 229.313,44.730 231.351,54.403 236.666 C 65.143 242.566,67.354 244.756,67.354 249.497 C 67.354 264.163,49.230 268.516,42.516 255.462 C 41.264 253.026,39.585 252.498,37.890 254.005 C 37.257 254.568,38.684 257.885,40.726 260.599 C 51.459 274.861,75.143 264.127,71.405 246.695 C 70.368 241.863,67.225 238.861,58.107 233.998 C 46.154 227.624,43.727 224.626,45.421 218.333 C 47.706 209.848,57.212 207.905,63.816 214.574 C 66.676 217.463,66.687 217.467,68.048 216.106 C 72.246 211.909,57.687 204.325,50.515 206.974 M206.624 207.151 C 197.430 210.571,194.157 223.145,200.561 230.443 C 201.156 231.122,205.526 233.833,210.272 236.469 C 222.193 243.089,224.055 244.863,224.055 249.599 C 224.055 264.957,202.633 268.037,197.748 253.381 C 197.552 252.794,197.024 252.804,195.676 253.418 C 193.155 254.566,194.275 257.602,198.924 262.223 C 210.090 273.319,229.055 264.857,228.060 249.222 C 227.628 242.450,225.915 240.405,216.172 235.032 C 205.124 228.939,202.543 226.951,201.794 223.957 C 198.959 212.624,212.753 205.924,220.576 214.833 C 223.875 218.591,226.900 216.367,224.010 212.308 C 220.619 207.545,212.243 205.061,206.624 207.151 M255.842 207.248 C 229.017 214.471,225.594 252.011,250.633 264.386 C 264.904 271.439,281.018 265.411,288.535 250.207 C 299.570 227.886,279.099 200.985,255.842 207.248 M299.656 236.426 L 299.656 266.667 301.710 266.667 L 303.763 266.667 303.943 241.774 L 304.124 216.881 325.430 240.912 C 337.148 254.128,347.577 265.871,348.605 267.007 L 350.475 269.072 350.495 237.973 L 350.515 206.873 348.462 206.873 L 346.408 206.873 346.228 232.252 L 346.048 257.631 323.079 231.908 C 310.447 217.761,300.008 206.186,299.884 206.186 C 299.759 206.186,299.656 219.794,299.656 236.426 M80.412 236.770 L 80.412 266.667 82.474 266.667 L 84.536 266.667 84.536 236.770 L 84.536 206.873 82.474 206.873 L 80.412 206.873 80.412 236.770 M162.199 236.675 L 162.199 266.667 164.261 266.667 L 166.323 266.667 166.323 252.577 L 166.323 238.488 171.993 238.481 C 184.244 238.467,191.366 230.648,189.034 219.774 C 187.002 210.301,183.038 207.611,170.275 207.043 L 162.199 206.684 162.199 236.675 M268.240 211.331 C 287.267 216.287,293.718 241.304,279.684 255.712 C 270.214 265.435,255.232 265.577,245.689 256.035 C 227.409 237.754,243.932 205.000,268.240 211.331 M180.069 212.958 C 190.441 220.551,184.690 234.364,171.156 234.364 L 166.323 234.364 166.323 222.579 L 166.323 210.794 172.337 211.247 C 176.521 211.562,178.873 212.083,180.069 212.958 M392.241 265.464 C 391.145 284.959,381.982 298.876,368.139 302.070 C 360.315 303.875,342.522 304.372,311.340 303.655 C 268.093 302.662,251.836 303.801,234.364 309.051 C 219.932 313.387,208.163 319.988,202.577 326.879 L 200.000 330.059 200.000 336.851 C 200.000 343.533,200.026 343.643,201.625 343.643 C 203.038 343.643,203.307 343.225,203.689 340.434 C 205.043 330.559,216.659 321.677,235.739 315.927 C 252.767 310.796,268.542 309.718,311.340 310.764 C 363.819 312.046,375.422 310.345,385.699 299.866 C 394.204 291.193,398.218 280.812,399.666 263.746 L 400.117 258.419 396.377 258.419 L 392.637 258.419 392.241 265.464 " stroke="none" fill="#24465a" fill-rule="evenodd"/></g></svg>
+-->
+									<img src="images/WebHeroLogo.png">
+								</div>
+							</section>
+						
+						<!-- Panel (Banner) -->
+							<section class="panel banner left">
+								<div class="content color0 span-3-75">
+            
+									<h1 class="major">Lou Simpson<br />
+									Ecommerce Consulting</h1>
+									<p>Ecommerce Strategy<br />
+									Conversion Rate Optimisation<br />
+									Search Engine Optimisation<br />
+									Google Analytics &amp; Enhanced Ecommerce Implementation<br />
+									Google Tag Management Support</p>
+									<ul class="actions">
+										<li><a href="#loucontact" class="button special color1 circle icon fa-angle-right">Next</a></li>
+									</ul>
+								</div>
+								<!-- <div class="image filtered span-1-75" data-position="25% 25%">
+									<img src="images/pic01.jpg" alt="" />
+								</div> -->
+							</section>
+
+						<!-- Panel (Spotlight) 
+							<section class="panel spotlight medium right" id="first">
+								<div class="content span-7">
+									<h2 class="major">Sed etiam aenean</h2>
+									<p>Mauris et ligula arcu. Proin dapibus convallis accumsan. Lorem maximus hendrerit orci, sit amet elementum massa hendrerit sed. Donec et ullamcorper ligula. Suspendisse amet potenti. Ut pretium libero eleifend euismod sed tristique. Quisque dictum magna risus, id ultricies justo sagittis vitae. Sed id odio tempor, porttitor elit amet, gravida hendrerit fringilla lorem ipsum dolor.</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/pic02.jpg" alt="" />
+								</div>
+							</section> -->
+
+						<!-- Panel 
+							<section class="panel color1">
+								<div class="intro joined">
+									<h2 class="major">Amet lorem</h2>
+									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
+								</div>
+								<div class="inner">
+									<ul class="grid-icons three connected">
+										<li><span class="icon fa-diamond"><span class="label">Lorem</span></span></li>
+										<li><span class="icon fa-camera-retro"><span class="label">Ipsum</span></span></li>
+										<li><span class="icon fa-cog"><span class="label">Dolor</span></span></li>
+										<li><span class="icon fa-paper-plane"><span class="label">Sit</span></span></li>
+										<li><span class="icon fa-bar-chart"><span class="label">Amet</span></span></li>
+										<li><span class="icon fa-code"><span class="label">Nullam</span></span></li>
+									</ul>
+								</div>
+							</section> -->
+
+						<!-- Panel (Spotlight) 
+							<section class="panel spotlight large left">
+								<div class="content span-5">
+									<h2 class="major">Magna amet tempus</h2>
+									<p>Mauris a cursus velit. Nunc lacinia sollicitudin egestas bibendum, magna dui bibendum ex, sagittis commodo enim risus sed magna nulla. Vestibulum ut consequat velit. Curabitur vitae libero lorem. Quisque iaculis porttitor blandit. Nullam quis sagittis maximus. Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar.</p>
+								</div>
+								<div class="image filtered tinted" data-position="top right">
+									<img src="images/pic03.jpg" alt="" />
+								</div>
+							</section> -->
+
+						<!-- Panel 
+							<section class="panel">
+								<div class="intro color2">
+									<h2 class="major">Elit integer</h2>
+									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
+								</div>
+								<div class="gallery">
+									<div class="group span-3">
+										<a href="images/gallery/fulls/01.jpg" class="image filtered span-3" data-position="bottom"><img src="images/gallery/thumbs/01.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/02.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/02.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/03.jpg" class="image filtered span-1-5" data-position="bottom"><img src="images/gallery/thumbs/03.jpg" alt="" /></a>
+									</div>
+									<a href="images/gallery/fulls/04.jpg" class="image filtered span-2-5" data-position="top"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
+									<div class="group span-4-5">
+										<a href="images/gallery/fulls/05.jpg" class="image filtered span-3" data-position="top"><img src="images/gallery/thumbs/05.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/06.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/07.jpg" class="image filtered span-1-5" data-position="bottom"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/08.jpg" class="image filtered span-3" data-position="top"><img src="images/gallery/thumbs/08.jpg" alt="" /></a>
+									</div>
+									<a href="images/gallery/fulls/09.jpg" class="image filtered span-2-5" data-position="right"><img src="images/gallery/thumbs/09.jpg" alt="" /></a>
+								</div>
+							</section> -->
+
+						<!-- Panel -->
+							<section class="panel color4-alt" id="loucontact">
+								<!-- <div class="intro color4">
+									<h2 class="major">Contact</h2>
+									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
+								</div> -->
+								<div class="inner columns divided">
+									<!-- iv class="span-3-25">
+										<form method="post" action="#">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="email" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="4"></textarea>
+											</div>
+											<ul class="actions">
+												<li><input type="submit" value="Send Message" class="button special" /></li>
+											</ul>
+										</form>
+									</div>  -->
+									<div class="span-1-5">
+										<ul class="contact-icons color1">
+											<li class="icon fa-twitter"><a href="#">@lousimpsonecommerce</a></li>
+											<li class="icon fa-envelope-square"><a href="mailto:contact@lousimpson.com.au">contact@lousimpson.com.au</a></li>
+											<!-- <li class="icon fa-facebook"><a href="#">facebook.com/untitled</a></li> 
+											<li class="icon fa-snapchat-ghost"><a href="#">@untitled-tld</a></li> 
+											<li class="icon fa-instagram"><a href="#">@untitled-tld</a></li>
+											<li class="icon fa-medium"><a href="#">medium.com/untitled</a></li> -->
+										</ul>
+									</div>
+								</div>
+							</section> 
+
+						<!-- Panel 
+							<section class="panel color2-alt">
+								<div class="intro color2">
+									<h2 class="major">Elements</h2>
+									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam. </p>
+								</div>
+								<div class="inner columns aligned">
+									<div class="span-2-75">
+
+										<h3 class="major">Text</h3>
+										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+
+										<h1>Heading Level 1</h1>
+										<h2>Heading Level 2</h2>
+										<h3>Heading Level 3</h3>
+										<h4>Heading Level 4</h4>
+										<h5>Heading Level 5</h5>
+										<h6>Heading Level 6</h6>
+
+									</div>
+									<div class="span-3">
+
+										<h4>Blockquote</h4>
+										<blockquote>Lorem ipsum dolor sit amet. Felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in vestibulum. Blandit adipiscing eu iaculis volutpat ac adipiscing volutpat ac adipiscing faucibus.</blockquote>
+
+										<h4>Preformatted</h4>
+										<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + (i++);
+    deck.shuffle();
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+
+									</div>
+									<div class="span-1-25">
+
+										<h3 class="major">Lists</h3>
+
+										<h4>Unordered</h4>
+										<ul>
+											<li>Lorem ipsum dolor sit.</li>
+											<li>Dolor pulvinar etiam.</li>
+											<li>Etiam vel felis viverra.</li>
+										</ul>
+
+										<h4>Alternate</h4>
+										<ul class="alt">
+											<li>Lorem ipsum dolor sit.</li>
+											<li>Dolor pulvinar etiam.</li>
+											<li>Etiam vel felis viverra.</li>
+											<li>Felis enim feugiat.</li>
+										</ul>
+
+									</div>
+									<div class="span-1-5">
+
+										<h4>Ordered</h4>
+										<ol>
+											<li>Lorem ipsum dolor sit.</li>
+											<li>Dolor pulvinar etiam.</li>
+											<li>Etiam vel felis viverra.</li>
+											<li>Felis enim feugiat.</li>
+											<li>Etiam vel felis lorem.</li>
+										</ol>
+
+										<h4>Actions</h4>
+										<ul class="actions">
+											<li><a href="#" class="button special color2">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+										</ul>
+										<ul class="actions vertical">
+											<li><a href="#" class="button special color2">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+										</ul>
+
+									</div>
+									<div class="span-1-25">
+
+										<h4>Icons</h4>
+										<ul class="icons">
+											<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+											<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+											<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+											<li><a href="#" class="icon fa-medium"><span class="label">Medium</span></a></li>
+										</ul>
+
+										<h4>Contact Icons</h4>
+										<ul class="contact-icons color2">
+											<li class="icon fa-twitter"><a href="#">Twitter</a></li>
+											<li class="icon fa-facebook"><a href="#">Facebook</a></li>
+											<li class="icon fa-instagram"><a href="#">Instagram</a></li>
+											<li class="icon fa-github"><a href="#">GitHub</a></li>
+											<li class="icon fa-medium"><a href="#">Medium</a></li>
+										</ul>
+
+									</div>
+									<div class="span-3">
+										<h3 class="major">Table</h3>
+										<h4>Default</h4>
+										<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</div>
+									<div class="span-3">
+										<h4>Alternate</h4>
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</div>
+									<div class="span-2-25">
+										<h3 class="major">Buttons</h3>
+										<ul class="actions">
+											<li><a href="#" class="button special color2">Special</a></li>
+											<li><a href="#" class="button">Default</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button large">Large</a></li>
+											<li><a href="#" class="button small">Small</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button special color2 icon fa-cog">Icon</a></li>
+											<li><a href="#" class="button icon fa-diamond">Icon</a></li>
+										</ul>
+										<ul class="actions">
+											<li><span class="button special color2 disabled">Disabled</span></li>
+											<li><span class="button disabled">Disabled</span></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button special color2 circle icon fa-cog">Icon</a></li>
+											<li><a href="#" class="button circle icon fa-diamond">Icon</a></li>
+										</ul>
+									</div>
+									<div class="span-4-5">
+										<h3 class="major">Form</h3>
+										<form method="post" action="#">
+											<div class="field third">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field third">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field third">
+												<label for="demo-category">Category</label>
+												<div class="select-wrapper">
+													<select name="demo-category" id="demo-category">
+														<option value="">-</option>
+														<option value="1">Manufacturing</option>
+														<option value="1">Shipping</option>
+														<option value="1">Administration</option>
+														<option value="1">Human Resources</option>
+													</select>
+												</div>
+											</div>
+											<div class="field quarter">
+												<input type="radio" id="demo-priority-low" name="demo-priority" class="color2" checked />
+												<label for="demo-priority-low">Low Priority</label>
+											</div>
+											<div class="field quarter">
+												<input type="radio" id="demo-priority-high" name="demo-priority" class="color2" />
+												<label for="demo-priority-high">High Priority</label>
+											</div>
+											<div class="field quarter">
+												<input type="checkbox" id="demo-copy" name="demo-copy" class="color2" />
+												<label for="demo-copy">Email a copy</label>
+											</div>
+											<div class="field quarter">
+												<input type="checkbox" id="demo-human" name="demo-human" class="color2" checked />
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="2"></textarea>
+											</div>
+											<ul class="actions">
+												<li><input type="submit" value="Send Message" class="special color2" /></li>
+												<li><input type="reset" value="Reset" /></li>
+											</ul>
+										</form>
+									</div>
+								</div>
+							</section> -->
+
+						<!-- Copyright -->
+							<div class="copyright">&copy; Lou Simpson. Design: <a href="https://www.lousimpson.com.au">Lou Simpson</a>.</div>
+
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
